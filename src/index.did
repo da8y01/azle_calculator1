@@ -1,1 +1,4 @@
-service : () -> { get_message : () -> (text) query; set_message : (text) -> () }
+service: () -> {
+    doOperation: (text, text, text) -> (record {result:nat32; operationCreator:principal; operation:text});
+    getOperations: () -> (vec record {result:nat32; operationCreator:principal; operation:text}) query;
+}

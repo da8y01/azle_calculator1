@@ -1,11 +1,11 @@
 {
     "canisters": {
-        "azle_hello_world": {
+        "azle_calculator1": {
             "type": "custom",
             "main": "src/index.ts",
             "candid": "src/index.did",
-            "build": "npx azle azle_hello_world",
-            "wasm": ".azle/azle_hello_world/azle_hello_world.wasm",
+            "build": "npx azle azle_calculator1",
+            "wasm": ".azle/azle_calculator1/azle_calculator1.wasm",
             "gzip": true
         }
     }

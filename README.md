@@ -1,4 +1,4 @@
-# azle_hello_world
+# azle_calculator1
 
 Welcome to your first Azle project! This example project will help you to deploy your first canister (application) to the Internet Computer (IC) decentralized cloud. It is a simple getter/setter canister. You can always refer to [The Azle Book](https://demergent-labs.github.io/azle/) for more in-depth documentation.
 
@@ -30,14 +30,14 @@ npm run canister_deploy_local
 To call the methods on your canister:
 
 ```bash
-npm run canister_call_get_message
-npm run canister_call_set_message
+npm run canister_call_get_operations
+npm run canister_call_do_operation
 ```
 
-If you run the above commands and then call `npm run canister_call_get_message` you should see:
+If you run the above commands and then call `npm run canister_call_get_operations` you should see:
 
 ```bash
-("Hello world!")
+("2+2 = 4")
 ```
 
 Assuming you have [created a cycles wallet](https://internetcomputer.org/docs/current/developer-docs/quickstart/network-quickstart) and funded it with cycles, you can deploy to mainnet like this:
